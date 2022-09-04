@@ -1,0 +1,5 @@
+com/selenium_2022/com/selenium_2022/testCases/BaseClass.class
+com/selenium_2022/com/selenium_2022/pageObjects/HomePage.class
+com/selenium_2022/com/selenium_2022/pageObjects/CommonUtilities.class
+com/selenium_2022/com/selenium_2022/testCases/TC_HomePageTest_001.class
+com/selenium_2022/com/selenium_2022/pageObjects/NewWindow.class

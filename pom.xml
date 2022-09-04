@@ -63,9 +63,9 @@
 				<version>3.0.0-M7</version>
 				<configuration>
 					<suiteXmlFiles>
-						<!-- <suiteXmlFile>testng.xml</suiteXmlFile>mvn clean test -DtestngFile=testng.xml -->
+						<!-- <suiteXmlFile>${testngFile}</suiteXmlFile>mvn clean test -DtestngFile=testng.xml -->
 
-						<suiteXmlFile>${testngFile}</suiteXmlFile>
+						<suiteXmlFile>testng.xml</suiteXmlFile>
 					</suiteXmlFiles>
 				</configuration>
 			</plugin>
