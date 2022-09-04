@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="28.236" tests="2" errors="0" skipped="0" failures="2">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="5.106" tests="3" errors="0" skipped="2" failures="1">
   <properties>
     <property name="java.specification.version" value="16"/>
     <property name="webdriver.chrome.driver" value="/Users/rk29/.cache/selenium/chromedriver/mac64/105.0.5195.52/chromedriver"/>
@@ -14,10 +14,9 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="CA"/>
     <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk-16.0.2.jdk/Contents/Home/lib"/>
-    <property name="sun.java.command" value="/Users/rk29/eclipseWorkspace/Selenium_2022/target/surefire/surefirebooter-20220903230640941_3.jar /Users/rk29/eclipseWorkspace/Selenium_2022/target/surefire 2022-09-03T23-06-40_685-jvmRun1 surefire-20220903230640941_1tmp surefire_0-20220903230640941_2tmp"/>
+    <property name="sun.java.command" value="/Users/rk29/eclipseWorkspace/Selenium_2022/target/surefire/surefirebooter-20220903234337067_3.jar /Users/rk29/eclipseWorkspace/Selenium_2022/target/surefire 2022-09-03T23-43-36_854-jvmRun1 surefire-20220903234337067_1tmp surefire_0-20220903234337067_2tmp"/>
     <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="jdk.debug" value="release"/>
-    <property name="testngFile" value="testng.xml"/>
     <property name="surefire.test.class.path" value="/Users/rk29/eclipseWorkspace/Selenium_2022/target/test-classes:/Users/rk29/eclipseWorkspace/Selenium_2022/target/classes:/Users/rk29/.m2/repository/org/seleniumhq/selenium/selenium-java/4.0.0-beta-1/selenium-java-4.0.0-beta-1.jar:/Users/rk29/.m2/repository/org/seleniumhq/selenium/selenium-api/4.0.0-beta-1/selenium-api-4.0.0-beta-1.jar:/Users/rk29/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/4.0.0-beta-1/selenium-chrome-driver-4.0.0-beta-1.jar:/Users/rk29/.m2/repository/com/google/auto/service/auto-service-annotations/1.0-rc7/auto-service-annotations-1.0-rc7.jar:/Users/rk29/.m2/repository/com/google/auto/service/auto-service/1.0-rc7/auto-service-1.0-rc7.jar:/Users/rk29/.m2/repository/com/google/auto/auto-common/0.10/auto-common-0.10.jar:/Users/rk29/.m2/repository/com/google/guava/guava/30.1-jre/guava-30.1-jre.jar:/Users/rk29/.m2/repository/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar:/Users/rk29/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/Users/rk29/.m2/repository/org/checkerframework/checker-qual/3.5.0/checker-qual-3.5.0.jar:/Users/rk29/.m2/repository/com/google/errorprone/error_prone_annotations/2.3.4/error_prone_annotations-2.3.4.jar:/Users/rk29/.m2/repository/com/google/j2objc/j2objc-annotations/1.3/j2objc-annotations-1.3.jar:/Users/rk29/.m2/repository/org/seleniumhq/selenium/selenium-chromium-driver/4.0.0-beta-1/selenium-chromium-driver-4.0.0-beta-1.jar:/Users/rk29/.m2/repository/org/seleniumhq/selenium/selenium-devtools/4.0.0-beta-1/selenium-devtools-4.0.0-beta-1.jar:/Users/rk29/.m2/repository/org/seleniumhq/selenium/selenium-http/4.0.0-beta-1/selenium-http-4.0.0-beta-1.jar:/Users/rk29/.m2/repository/org/seleniumhq/selenium/selenium-json/4.0.0-beta-1/selenium-json-4.0.0-beta-1.jar:/Users/rk29/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v86/4.0.0-beta-1/selenium-devtools-v86-4.0.0-beta-1.jar:/Users/rk29/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v87/4.0.0-beta-1/selenium-devtools-v87-4.0.0-beta-1.jar:/Users/rk29/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v88/4.0.0-beta-1/selenium-devtools-v88-4.0.0-beta-1.jar:/Users/rk29/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v89/4.0.0-beta-1/selenium-devtools-v89-4.0.0-beta-1.jar:/Users/rk29/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/4.0.0-beta-1/selenium-edge-driver-4.0.0-beta-1.jar:/Users/rk29/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/4.0.0-beta-1/selenium-firefox-driver-4.0.0-beta-1.jar:/Users/rk29/.m2/repository/org/seleniumhq/selenium/selenium-firefox-xpi-driver/4.0.0-beta-1/selenium-firefox-xpi-driver-4.0.0-beta-1.jar:/Users/rk29/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/4.0.0-beta-1/selenium-ie-driver-4.0.0-beta-1.jar:/Users/rk29/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/4.0.0-beta-1/selenium-opera-driver-4.0.0-beta-1.jar:/Users/rk29/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/4.0.0-beta-1/selenium-remote-driver-4.0.0-beta-1.jar:/Users/rk29/.m2/repository/io/netty/netty-buffer/4.1.58.Final/netty-buffer-4.1.58.Final.jar:/Users/rk29/.m2/repository/io/netty/netty-codec-http/4.1.58.Final/netty-codec-http-4.1.58.Final.jar:/Users/rk29/.m2/repository/io/netty/netty-codec/4.1.58.Final/netty-codec-4.1.58.Final.jar:/Users/rk29/.m2/repository/io/netty/netty-handler/4.1.58.Final/netty-handler-4.1.58.Final.jar:/Users/rk29/.m2/repository/io/netty/netty-common/4.1.58.Final/netty-common-4.1.58.Final.jar:/Users/rk29/.m2/repository/io/netty/netty-transport-native-epoll/4.1.58.Final/netty-transport-native-epoll-4.1.58.Final.jar:/Users/rk29/.m2/repository/io/netty/netty-transport-native-kqueue/4.1.58.Final/netty-transport-native-kqueue-4.1.58.Final.jar:/Users/rk29/.m2/repository/io/netty/netty-transport-native-unix-common/4.1.58.Final/netty-transport-native-unix-common-4.1.58.Final.jar:/Users/rk29/.m2/repository/io/netty/netty-transport/4.1.58.Final/netty-transport-4.1.58.Final.jar:/Users/rk29/.m2/repository/io/netty/netty-resolver/4.1.58.Final/netty-resolver-4.1.58.Final.jar:/Users/rk29/.m2/repository/io/opentelemetry/opentelemetry-api/0.14.1/opentelemetry-api-0.14.1.jar:/Users/rk29/.m2/repository/io/opentelemetry/opentelemetry-context/0.14.1/opentelemetry-context-0.14.1.jar:/Users/rk29/.m2/repository/io/opentelemetry/opentelemetry-exporter-logging/0.14.1/opentelemetry-exporter-logging-0.14.1.jar:/Users/rk29/.m2/repository/io/opentelemetry/opentelemetry-sdk-metrics/0.14.1-alpha/opentelemetry-sdk-metrics-0.14.1-alpha.jar:/Users/rk29/.m2/repository/io/opentelemetry/opentelemetry-sdk-common/0.14.1/opentelemetry-sdk-common-0.14.1.jar:/Users/rk29/.m2/repository/io/opentelemetry/opentelemetry-sdk-trace/0.14.1/opentelemetry-sdk-trace-0.14.1.jar:/Users/rk29/.m2/repository/io/opentelemetry/opentelemetry-api-metrics/0.14.1-alpha/opentelemetry-api-metrics-0.14.1-alpha.jar:/Users/rk29/.m2/repository/io/opentelemetry/opentelemetry-sdk/0.14.1/opentelemetry-sdk-0.14.1.jar:/Users/rk29/.m2/repository/io/opentelemetry/opentelemetry-semconv/0.14.1/opentelemetry-semconv-0.14.1.jar:/Users/rk29/.m2/repository/net/bytebuddy/byte-buddy/1.10.19/byte-buddy-1.10.19.jar:/Users/rk29/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/rk29/.m2/repository/org/asynchttpclient/async-http-client/2.12.2/async-http-client-2.12.2.jar:/Users/rk29/.m2/repository/org/asynchttpclient/async-http-client-netty-utils/2.12.2/async-http-client-netty-utils-2.12.2.jar:/Users/rk29/.m2/repository/io/netty/netty-codec-socks/4.1.53.Final/netty-codec-socks-4.1.53.Final.jar:/Users/rk29/.m2/repository/io/netty/netty-handler-proxy/4.1.53.Final/netty-handler-proxy-4.1.53.Final.jar:/Users/rk29/.m2/repository/io/netty/netty-transport-native-epoll/4.1.53.Final/netty-transport-native-epoll-4.1.53.Final-linux-x86_64.jar:/Users/rk29/.m2/repository/io/netty/netty-transport-native-kqueue/4.1.53.Final/netty-transport-native-kqueue-4.1.53.Final-osx-x86_64.jar:/Users/rk29/.m2/repository/org/reactivestreams/reactive-streams/1.0.3/reactive-streams-1.0.3.jar:/Users/rk29/.m2/repository/com/typesafe/netty/netty-reactive-streams/2.0.4/netty-reactive-streams-2.0.4.jar:/Users/rk29/.m2/repository/com/sun/activation/jakarta.activation/1.2.2/jakarta.activation-1.2.2.jar:/Users/rk29/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/4.0.0-beta-1/selenium-safari-driver-4.0.0-beta-1.jar:/Users/rk29/.m2/repository/org/seleniumhq/selenium/selenium-support/4.0.0-beta-1/selenium-support-4.0.0-beta-1.jar:/Users/rk29/.m2/repository/org/testng/testng/7.6.1/testng-7.6.1.jar:/Users/rk29/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/Users/rk29/.m2/repository/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar:/Users/rk29/.m2/repository/com/beust/jcommander/1.82/jcommander-1.82.jar:/Users/rk29/.m2/repository/org/webjars/jquery/3.6.0/jquery-3.6.0.jar:/Users/rk29/.m2/repository/org/apache/maven/plugins/maven-surefire-plugin/3.0.0-M7/maven-surefire-plugin-3.0.0-M7.jar:/Users/rk29/.m2/repository/org/apache/maven/surefire/maven-surefire-common/3.0.0-M7/maven-surefire-common-3.0.0-M7.jar:/Users/rk29/.m2/repository/org/apache/maven/surefire/surefire-api/3.0.0-M7/surefire-api-3.0.0-M7.jar:/Users/rk29/.m2/repository/org/apache/maven/surefire/surefire-logger-api/3.0.0-M7/surefire-logger-api-3.0.0-M7.jar:/Users/rk29/.m2/repository/org/apache/maven/surefire/surefire-extensions-api/3.0.0-M7/surefire-extensions-api-3.0.0-M7.jar:/Users/rk29/.m2/repository/org/apache/maven/surefire/surefire-booter/3.0.0-M7/surefire-booter-3.0.0-M7.jar:/Users/rk29/.m2/repository/org/apache/maven/surefire/surefire-extensions-spi/3.0.0-M7/surefire-extensions-spi-3.0.0-M7.jar:/Users/rk29/.m2/repository/org/apache/maven/shared/maven-common-artifact-filters/3.1.1/maven-common-artifact-filters-3.1.1.jar:/Users/rk29/.m2/repository/org/codehaus/plexus/plexus-java/1.1.1/plexus-java-1.1.1.jar:/Users/rk29/.m2/repository/org/ow2/asm/asm/9.2/asm-9.2.jar:/Users/rk29/.m2/repository/com/thoughtworks/qdox/qdox/2.0.1/qdox-2.0.1.jar:/Users/rk29/.m2/repository/org/apache/maven/surefire/surefire-shared-utils/3.0.0-M7/surefire-shared-utils-3.0.0-M7.jar:/Users/rk29/.m2/repository/io/github/bonigarcia/webdrivermanager/4.3.1/webdrivermanager-4.3.1.jar:/Users/rk29/.m2/repository/commons-io/commons-io/2.8.0/commons-io-2.8.0.jar:/Users/rk29/.m2/repository/com/google/code/gson/gson/2.8.6/gson-2.8.6.jar:/Users/rk29/.m2/repository/org/apache/commons/commons-lang3/3.11/commons-lang3-3.11.jar:/Users/rk29/.m2/repository/org/apache/httpcomponents/client5/httpclient5/5.0.3/httpclient5-5.0.3.jar:/Users/rk29/.m2/repository/org/apache/httpcomponents/core5/httpcore5/5.0.2/httpcore5-5.0.2.jar:/Users/rk29/.m2/repository/org/apache/httpcomponents/core5/httpcore5-h2/5.0.2/httpcore5-h2-5.0.2.jar:/Users/rk29/.m2/repository/commons-codec/commons-codec/1.13/commons-codec-1.13.jar:/Users/rk29/.m2/repository/org/rauschig/jarchivelib/1.1.0/jarchivelib-1.1.0.jar:/Users/rk29/.m2/repository/org/apache/commons/commons-compress/1.20/commons-compress-1.20.jar:/Users/rk29/.m2/repository/org/jsoup/jsoup/1.13.1/jsoup-1.13.1.jar:/Users/rk29/.m2/repository/org/apache/maven/plugins/maven-war-plugin/3.3.2/maven-war-plugin-3.3.2.jar:/Users/rk29/.m2/repository/org/apache/maven/maven-plugin-api/3.1.0/maven-plugin-api-3.1.0.jar:/Users/rk29/.m2/repository/org/apache/maven/maven-core/3.1.0/maven-core-3.1.0.jar:/Users/rk29/.m2/repository/org/apache/maven/maven-settings/3.1.0/maven-settings-3.1.0.jar:/Users/rk29/.m2/repository/org/apache/maven/maven-settings-builder/3.1.0/maven-settings-builder-3.1.0.jar:/Users/rk29/.m2/repository/org/apache/maven/maven-repository-metadata/3.1.0/maven-repository-metadata-3.1.0.jar:/Users/rk29/.m2/repository/org/apache/maven/maven-model-builder/3.1.0/maven-model-builder-3.1.0.jar:/Users/rk29/.m2/repository/org/apache/maven/maven-aether-provider/3.1.0/maven-aether-provider-3.1.0.jar:/Users/rk29/.m2/repository/org/eclipse/aether/aether-spi/0.9.0.M2/aether-spi-0.9.0.M2.jar:/Users/rk29/.m2/repository/org/eclipse/aether/aether-impl/0.9.0.M2/aether-impl-0.9.0.M2.jar:/Users/rk29/.m2/repository/org/eclipse/aether/aether-util/0.9.0.M2/aether-util-0.9.0.M2.jar:/Users/rk29/.m2/repository/org/codehaus/plexus/plexus-classworlds/2.4.2/plexus-classworlds-2.4.2.jar:/Users/rk29/.m2/repository/org/codehaus/plexus/plexus-component-annotations/1.5.5/plexus-component-annotations-1.5.5.jar:/Users/rk29/.m2/repository/org/sonatype/plexus/plexus-sec-dispatcher/1.3/plexus-sec-dispatcher-1.3.jar:/Users/rk29/.m2/repository/org/sonatype/plexus/plexus-cipher/1.4/plexus-cipher-1.4.jar:/Users/rk29/.m2/repository/org/apache/maven/maven-model/3.1.0/maven-model-3.1.0.jar:/Users/rk29/.m2/repository/org/apache/maven/maven-archiver/3.5.0/maven-archiver-3.5.0.jar:/Users/rk29/.m2/repository/org/apache/maven/maven-artifact/3.1.0/maven-artifact-3.1.0.jar:/Users/rk29/.m2/repository/org/apache/maven/shared/maven-shared-utils/3.2.1/maven-shared-utils-3.2.1.jar:/Users/rk29/.m2/repository/org/codehaus/plexus/plexus-archiver/4.2.2/plexus-archiver-4.2.2.jar:/Users/rk29/.m2/repository/org/codehaus/plexus/plexus-io/3.2.0/plexus-io-3.2.0.jar:/Users/rk29/.m2/repository/org/iq80/snappy/snappy/0.4/snappy-0.4.jar:/Users/rk29/.m2/repository/org/tukaani/xz/1.8/xz-1.8.jar:/Users/rk29/.m2/repository/org/codehaus/plexus/plexus-interpolation/1.26/plexus-interpolation-1.26.jar:/Users/rk29/.m2/repository/org/codehaus/plexus/plexus-utils/3.3.0/plexus-utils-3.3.0.jar:/Users/rk29/.m2/repository/org/apache/maven/shared/maven-filtering/3.1.1/maven-filtering-3.1.1.jar:/Users/rk29/.m2/repository/org/sonatype/plexus/plexus-build-api/0.0.7/plexus-build-api-0.0.7.jar:/Users/rk29/.m2/repository/org/apache/maven/shared/maven-mapping/3.0.0/maven-mapping-3.0.0.jar:/Users/rk29/.m2/repository/org/eclipse/aether/aether-api/0.9.0.M2/aether-api-0.9.0.M2.jar:/Users/rk29/.m2/repository/org/eclipse/sisu/org.eclipse.sisu.plexus/0.0.0.M2a/org.eclipse.sisu.plexus-0.0.0.M2a.jar:/Users/rk29/.m2/repository/javax/enterprise/cdi-api/1.0/cdi-api-1.0.jar:/Users/rk29/.m2/repository/javax/annotation/jsr250-api/1.0/jsr250-api-1.0.jar:/Users/rk29/.m2/repository/javax/inject/javax.inject/1/javax.inject-1.jar:/Users/rk29/.m2/repository/org/sonatype/sisu/sisu-guice/3.1.0/sisu-guice-3.1.0-no_aop.jar:/Users/rk29/.m2/repository/aopalliance/aopalliance/1.0/aopalliance-1.0.jar:/Users/rk29/.m2/repository/org/eclipse/sisu/org.eclipse.sisu.inject/0.0.0.M2a/org.eclipse.sisu.inject-0.0.0.M2a.jar:/Users/rk29/.m2/repository/asm/asm/3.3.1/asm-3.3.1.jar:"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="/Users/rk29"/>
@@ -31,7 +30,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="/Users/rk29/eclipseWorkspace/Selenium_2022/target/surefire/surefirebooter-20220903230640941_3.jar"/>
+    <property name="surefire.real.class.path" value="/Users/rk29/eclipseWorkspace/Selenium_2022/target/surefire/surefirebooter-20220903234337067_3.jar"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="java.runtime.version" value="16.0.2+7-67"/>
@@ -57,99 +56,17 @@
     <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="java.class.version" value="60.0"/>
   </properties>
-  <testcase name="homePageTest" classname="com.selenium_2022.com.selenium_2022.testCases.TC_HomePageTest_001" time="16.226">
-    <failure message="no such window: target window already closed&#10;from unknown error: web view not found&#10;  (Session info: chrome=105.0.5195.52)&#10;Build info: version: &apos;4.0.0-beta-1&apos;, revision: &apos;9c03156c2b&apos;&#10;System info: host: &apos;Ragas-MacBook-Pro.local&apos;, ip: &apos;fe80:0:0:0:4d0:55ab:5447:aaa7%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;11.5&apos;, java.version: &apos;16.0.2&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [3485a9cd80f320bf48cf00720bd694fc, findElement {using=xpath, value=//*[@id=&apos;homepage&apos;]/div[4]/div[2]/div/div/div/span/div/div[7]/div/div/div[2]}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.52, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: /var/folders/5f/p5zw7j0x373...}, goog:chromeOptions: {debuggerAddress: localhost:56880}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 3485a9cd80f320bf48cf00720bd694fc" type="org.openqa.selenium.NoSuchWindowException"><![CDATA[org.openqa.selenium.NoSuchWindowException: 
+  <testcase name="intBrowser" classname="com.selenium_2022.com.selenium_2022.testCases.TC_HomePageTest_001" time="4.867">
+    <failure message="no such window: target window already closed&#10;from unknown error: web view not found&#10;  (Session info: chrome=105.0.5195.52)&#10;Build info: version: &apos;4.0.0-beta-1&apos;, revision: &apos;9c03156c2b&apos;&#10;System info: host: &apos;Ragas-MacBook-Pro.local&apos;, ip: &apos;fe80:0:0:0:4d0:55ab:5447:aaa7%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;11.5&apos;, java.version: &apos;16.0.2&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [40787394e1ba28e9384f04e1e00347cd, maximizeCurrentWindow {}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.52, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: /var/folders/5f/p5zw7j0x373...}, goog:chromeOptions: {debuggerAddress: localhost:57280}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 40787394e1ba28e9384f04e1e00347cd" type="org.openqa.selenium.NoSuchWindowException"><![CDATA[org.openqa.selenium.NoSuchWindowException: 
 no such window: target window already closed
 from unknown error: web view not found
   (Session info: chrome=105.0.5195.52)
 Build info: version: '4.0.0-beta-1', revision: '9c03156c2b'
 System info: host: 'Ragas-MacBook-Pro.local', ip: 'fe80:0:0:0:4d0:55ab:5447:aaa7%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '11.5', java.version: '16.0.2'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [3485a9cd80f320bf48cf00720bd694fc, findElement {using=xpath, value=//*[@id='homepage']/div[4]/div[2]/div/div/div/span/div/div[7]/div/div/div[2]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.52, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: /var/folders/5f/p5zw7j0x373...}, goog:chromeOptions: {debuggerAddress: localhost:56880}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 3485a9cd80f320bf48cf00720bd694fc
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:78)
-	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:195)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:128)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:181)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:153)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:128)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:620)
-	at org.openqa.selenium.remote.RemoteWebDriver$Mechanism$2.findElement(RemoteWebDriver.java:1255)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:388)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:382)
-	at com.selenium_2022.com.selenium_2022.pageObjects.HomePage.openNewWindow(HomePage.java:52)
-	at com.selenium_2022.com.selenium_2022.testCases.TC_HomePageTest_001.homePageTest(TC_HomePageTest_001.java:19)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at org.testng.TestRunner.privateRun(TestRunner.java:806)
-	at org.testng.TestRunner.run(TestRunner.java:601)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:330)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
-	at org.testng.TestNG.runSuites(TestNG.java:1099)
-	at org.testng.TestNG.run(TestNG.java:1067)
-	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:324)
-	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:74)
-	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:123)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:456)
-	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:169)
-	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:595)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
-]]></failure>
-    <system-out><![CDATA[Practice Page
-
-]]></system-out>
-    <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
-SLF4J: Defaulting to no-operation (NOP) logger implementation
-SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
-Starting ChromeDriver 105.0.5195.52 (412c95e518836d8a7d97250d62b29c2ae6a26a85-refs/branch-heads/5195@{#853}) on port 7293
-Only local connections are allowed.
-Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-ChromeDriver was started successfully.
-Sep. 03, 2022 11:06:45 P.M. org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected dialect: W3C
-Sep. 03, 2022 11:06:45 P.M. org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find an exact match for CDP version 105, so returning the closest version found: a no-op implementation
-Sep. 03, 2022 11:06:45 P.M. org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-INFO: Unable to find CDP implementation matching 105.
-Sep. 03, 2022 11:06:45 P.M. org.openqa.selenium.chromium.ChromiumDriver lambda$new$0
-WARNING: Unable to find version of CDP to use for . You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.0.0-beta-1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
-[1662260829.243][SEVERE]: Unable to receive message from renderer
-]]></system-err>
-  </testcase>
-  <testcase name="terminateBrowser" classname="com.selenium_2022.com.selenium_2022.testCases.TC_HomePageTest_001" time="16.242">
-    <failure message="no such window: target window already closed&#10;from unknown error: web view not found&#10;  (Session info: chrome=105.0.5195.52)&#10;Build info: version: &apos;4.0.0-beta-1&apos;, revision: &apos;9c03156c2b&apos;&#10;System info: host: &apos;Ragas-MacBook-Pro.local&apos;, ip: &apos;fe80:0:0:0:4d0:55ab:5447:aaa7%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;11.5&apos;, java.version: &apos;16.0.2&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [3485a9cd80f320bf48cf00720bd694fc, close {}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.52, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: /var/folders/5f/p5zw7j0x373...}, goog:chromeOptions: {debuggerAddress: localhost:56880}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 3485a9cd80f320bf48cf00720bd694fc" type="org.openqa.selenium.NoSuchWindowException"><![CDATA[org.openqa.selenium.NoSuchWindowException: 
-no such window: target window already closed
-from unknown error: web view not found
-  (Session info: chrome=105.0.5195.52)
-Build info: version: '4.0.0-beta-1', revision: '9c03156c2b'
-System info: host: 'Ragas-MacBook-Pro.local', ip: 'fe80:0:0:0:4d0:55ab:5447:aaa7%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '11.5', java.version: '16.0.2'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [3485a9cd80f320bf48cf00720bd694fc, close {}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.52, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: /var/folders/5f/p5zw7j0x373...}, goog:chromeOptions: {debuggerAddress: localhost:56880}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 3485a9cd80f320bf48cf00720bd694fc
+Command: [40787394e1ba28e9384f04e1e00347cd, maximizeCurrentWindow {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.52, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: /var/folders/5f/p5zw7j0x373...}, goog:chromeOptions: {debuggerAddress: localhost:57280}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 40787394e1ba28e9384f04e1e00347cd
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:78)
 	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -164,8 +81,8 @@ Session ID: 3485a9cd80f320bf48cf00720bd694fc
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:620)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:671)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:675)
-	at org.openqa.selenium.remote.RemoteWebDriver.close(RemoteWebDriver.java:506)
-	at com.selenium_2022.com.selenium_2022.testCases.BaseClass.terminateBrowser(BaseClass.java:39)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:980)
+	at com.selenium_2022.com.selenium_2022.testCases.BaseClass.intBrowser(BaseClass.java:32)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -174,8 +91,8 @@ Session ID: 3485a9cd80f320bf48cf00720bd694fc
 	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
 	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:361)
 	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:296)
-	at org.testng.internal.invokers.TestMethodWorker.invokeAfterClassMethods(TestMethodWorker.java:222)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:131)
+	at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:180)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:122)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
 	at org.testng.TestRunner.privateRun(TestRunner.java:806)
 	at org.testng.TestRunner.run(TestRunner.java:601)
@@ -197,5 +114,28 @@ Session ID: 3485a9cd80f320bf48cf00720bd694fc
 	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:595)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
 ]]></failure>
+    <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+Starting ChromeDriver 105.0.5195.52 (412c95e518836d8a7d97250d62b29c2ae6a26a85-refs/branch-heads/5195@{#853}) on port 5023
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Sep. 03, 2022 11:43:40 P.M. org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Sep. 03, 2022 11:43:41 P.M. org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 105, so returning the closest version found: a no-op implementation
+Sep. 03, 2022 11:43:41 P.M. org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Unable to find CDP implementation matching 105.
+Sep. 03, 2022 11:43:41 P.M. org.openqa.selenium.chromium.ChromiumDriver lambda$new$0
+WARNING: Unable to find version of CDP to use for . You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.0.0-beta-1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+[1662263022.268][SEVERE]: Unable to receive message from renderer
+]]></system-err>
+  </testcase>
+  <testcase name="homePageTest" classname="com.selenium_2022.com.selenium_2022.testCases.TC_HomePageTest_001" time="0">
+    <skipped message="no such window: target window already closed&#10;from unknown error: web view not found&#10;  (Session info: chrome=105.0.5195.52)&#10;Build info: version: &apos;4.0.0-beta-1&apos;, revision: &apos;9c03156c2b&apos;&#10;System info: host: &apos;Ragas-MacBook-Pro.local&apos;, ip: &apos;fe80:0:0:0:4d0:55ab:5447:aaa7%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;11.5&apos;, java.version: &apos;16.0.2&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [40787394e1ba28e9384f04e1e00347cd, maximizeCurrentWindow {}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.52, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: /var/folders/5f/p5zw7j0x373...}, goog:chromeOptions: {debuggerAddress: localhost:57280}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 40787394e1ba28e9384f04e1e00347cd"/>
+  </testcase>
+  <testcase name="terminateBrowser" classname="com.selenium_2022.com.selenium_2022.testCases.TC_HomePageTest_001" time="0">
+    <skipped/>
   </testcase>
 </testsuite>
