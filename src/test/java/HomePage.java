@@ -86,7 +86,7 @@ public void table(){
 }
 
 public  void tableFixedHeader(){
-
+    System.out.println("Header");
 }
 
 }

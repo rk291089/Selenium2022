@@ -45,5 +45,6 @@ public class BaseClass {
 
     public void terminateBrowser(){
         driver.close();
+        System.out.println("Browser Terminated");
     }
 }
